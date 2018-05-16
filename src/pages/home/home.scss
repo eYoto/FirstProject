@@ -1,3 +1,5 @@
 page-home {
-
+  .redText {
+    color: map-get($colors, myColor);
+  }
 }

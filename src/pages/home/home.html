@@ -1,14 +1,29 @@
 <ion-header>
   <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only>
+        <ion-icon name="ios-contacts" md="ios-contacts"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-title>
-      Ionic Blank
+      Bionic Slinky
     </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="ios-alarm" md="md-alarm"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
+  The word is cloyster.
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+
+  <button ion-button full color="primary" (click)="clickGoogle()">Google</button>
+  <button ion-button full color="secondary" (click)="toAbout()">About Page</button>
+
+  <p class="redText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur consequatur doloremque ex fuga, fugit labore nemo nobis non nostrum quasi qui quo ratione rerum tempore. Amet deleniti possimus soluta!</p>
 </ion-content>
